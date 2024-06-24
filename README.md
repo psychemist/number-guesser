@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Number Guesser Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Number Guesser Game is a simple guessing game where the player tries to guess a randomly generated number between 1 and 100. The player is given 10 attempts to guess the number correctly. After each guess, the game provides feedback indicating whether the guess is too high, too low, or correct.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Random number generation between 1 and 100.
+- User input for guessing the number.
+- Feedback mechanism to guide the player.
+- Win/Loss condition based on the number of attempts.
+- Limit on the number of attempts (10 attempts).
+- Option to restart the game.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/number-guesser.git
+   cd number-guesser
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Open the application in your browser.
+2. Enter your guess in the input field and click "Guess".
+3. Receive feedback after each guess.
+4. Continue guessing until you either guess correctly or exhaust your 10 attempts.
+5. If the game is over, you can click "Restart" to play again.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Conclusion
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This guide provides a complete implementation of the "Number Guesser" game using React and TypeScript. The game includes random number generation, user input handling, feedback mechanism, win/loss conditions, and a limit on the number of attempts. The README provides detailed instructions for installation and usage.
