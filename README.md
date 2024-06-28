@@ -18,7 +18,7 @@ The Number Guesser Game is a simple guessing game where the player tries to gues
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/number-guesser.git
+   git clone https://github.com/psychemist/number-guesser.git
    cd number-guesser
    ```
 
